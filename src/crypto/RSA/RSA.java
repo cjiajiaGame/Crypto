@@ -44,7 +44,7 @@ public class RSA {
     /**
      * 创建一个带公钥和私钥的Map->HashMap。
      * Map里，publicKey为公钥，privateKey为私钥。
-     * @param keySize 秘钥的长度。应是16的倍数。
+     * @param keySize 秘钥的长度。应是64的倍数。
      * @return 带公钥和私钥Map->HashMap。
      * @throws NoSuchAlgorithmException
      * @throws KeyIvNotLengthyException
